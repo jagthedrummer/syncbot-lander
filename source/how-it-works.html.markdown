@@ -15,6 +15,16 @@ But for working with project and collaborating with other people you'll primaril
 
 Syncbot supports Logic Pro X and Ableton Live sessions.
 
+## Syncbot is alpha software!
+
+Please be aware that there's a small risk that Syncbot could somehow corrupt a project session.
+
+The chances are slim that it will happen, and even slimmer that it would do so in a way that would
+be completely unrecoverable.
+
+Nevertheless, during the early testing phase **I'd recommend keeping a copy of sessions that you
+really care about somewhere outside of your `~/Syncbot` folder.**
+
 
 ## The desktop app operates on your `~/Syncbot` folder
 
