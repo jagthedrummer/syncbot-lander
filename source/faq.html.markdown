@@ -25,3 +25,25 @@ or in one of its sub-folders.**
 In the future there _might_ be a configuration option to let you tell Syncbot to
 watch other folders.
 
+## Will Syncbot mess up my sessions?
+
+I certainly hope not!
+
+But, with that being said, please be aware that that *Syncbot is alpha level software*. For
+now I'd recommend being cautious, and if you have sessions that you really care about, please
+keep a copy of it outside of Syncbot.
+
+In most cases Syncbot won't do things that would mess up a session.
+
+But some actions are riskier than others. In specific, any time you download a project (or an
+older version), there is a chance for something to go sideways.
+
+Please be sure to close Logic or Ableton before downloading new versions of a project.
+
+Non-risky activities:
+
+* If you're using Syncbot on your own, to back up your sessions, and you're not
+  going back to older versions then there is very little risk that Syncbot could
+  mess up your sessions.
+
+
