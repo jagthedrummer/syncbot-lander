@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tailwind CSS Skeleton</title>
+    <title><%= current_page.data.title || "Middleman" %></title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
@@ -23,6 +23,9 @@
       rel="stylesheet"
     />
     <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
+
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
   </head>
 
   <body class="">
@@ -36,14 +39,17 @@
         <div class="mt-8 xl:mt-16 lg:flex lg:-mx-12">
           <div class="lg:mx-12">
             <!--
-            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
             -->
+            <a href="/">
+            <%= image_tag 'syncbot.jpg', class: 'h-24 w-24 rounded-full' %>
+            </a>
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-2">Syncbot Docs</h1>
 
             <div class="mt-4 space-y-4 lg:mt-8">
-              <a href="/download/" class="block text-blue-500 dark:text-blue-400 hover:underline">Download</a>
-              <a href="/intallation/" class="block text-gray-500 dark:text-gray-300 hover:underline">Installation</a>
+              <a href="/how-it-works/" class="block text-gray-500 dark:text-gray-300 hover:underline">How It Works</a>
+              <a href="/installation/" class="block text-gray-500 dark:text-gray-300 hover:underline">Installation</a>
               <a href="/updating/" class="block text-gray-500 dark:text-gray-300 hover:underline">Updating</a>
-              <a href="FAQ" class="block text-gray-500 dark:text-gray-300 hover:underline">FAQ</a>
+              <a href="/faq/" class="block text-gray-500 dark:text-gray-300 hover:underline">FAQ</a>
               <a href="/changelog/" class="block text-gray-500 dark:text-gray-300 hover:underline">Changelog</a>
             </div>
           </div>

@@ -16,6 +16,7 @@ activate :directory_indexes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page '/*.markdown', layout: 'markdown'
 
 
 activate :blog do |blog|
