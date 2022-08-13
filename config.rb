@@ -7,6 +7,8 @@ end
 
 activate :livereload
 
+activate :directory_indexes
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -14,6 +16,13 @@ activate :livereload
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = "changelog"
+  blog.name = "changelog"
+end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
