@@ -9,19 +9,21 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
 
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
     <!-- Font Awesome if you need it
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <%#<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>%>
     <!--Replace with your tailwind.css once created-->
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"
-        />
-    <link
-      href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
-      rel="stylesheet"
-    />
+    <%#<link%>
+        <%#rel="stylesheet"%>
+        <%#href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"%>
+        <%#/>%>
+    <%#<link%>
+      <%#href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"%>
+      <%#rel="stylesheet"%>
+    <%#/>%>
     <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
 
     <%= stylesheet_link_tag "site" %>
@@ -43,7 +45,7 @@
             <a href="/">
             <%= image_tag 'syncbot.jpg', class: 'h-24 w-24 rounded-full' %>
             </a>
-            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-2">Syncbot Docs</h1>
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-4">Syncbot Docs</h1>
 
             <div class="mt-4 space-y-4 lg:mt-8">
               <a href="/how-it-works/" class="block text-gray-500 dark:text-gray-300 hover:underline">How It Works</a>

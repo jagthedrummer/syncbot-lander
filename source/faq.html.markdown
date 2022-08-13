@@ -3,7 +3,9 @@ title: FAQ
 layout: markdown
 ---
 
-# Can I use symlinks instead of putting projects directly in `~Syncbot`?
+# FAQ
+
+## Can I use symlinks instead of putting projects directly in `~Syncbot`?
 
 Well... kinda?
 
