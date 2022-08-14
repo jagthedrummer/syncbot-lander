@@ -18,3 +18,7 @@ Known Issues:
 
 * Files that have been removed from a session will "rise from the dead"
 if they're still on a collaborators computer when they download a new version.
+* The link for downloadig an update isn't very responsive. It doesn't give you
+andy indicators that anything is happening. It might be better to open a browser
+window to a download page.
+* The login form on the desktop app doesn't integrate with password managers.

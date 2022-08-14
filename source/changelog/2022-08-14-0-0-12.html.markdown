@@ -1,0 +1,24 @@
+---
+
+title: 0.0.12
+date: 2022-08-14 02:10 UTC
+tags: 
+
+---
+
+New Features:
+
+* Basic Ableton Live support
+* Visual polish
+* Performance enhancements
+
+Bugs fixed:
+
+* Files that have been removed from a project will no longer "rise from the dead".
+* Better handling around prompting to update.
+
+Known Issues:
+
+* The login form on the desktop app doesn't integrate with password managers.
+
+
