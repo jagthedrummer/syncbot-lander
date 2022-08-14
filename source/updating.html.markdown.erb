@@ -9,15 +9,12 @@ layout: markdown
 
 ## Here's what you should know.
 
-When you're upgrading your Desktop application you should be able to avoid the macOS developer
-verification warning if you drag the new version onto the old version and choose "Replace" from
-the confirmation that pops up. If you delete the old version first you'll need to do the same
-dance as when you first installed.
+When you're upgrading your Desktop application you'll run into the same security verification problem
+as during the initial installation, and you'll need to do the same dance to get around it.
 
 <%= partial 'download-button' %>
 
 For a smooth upgrade:
-
 
 1. Make sure to quit Syncbot
 1. Download the zip file containing the app
@@ -25,7 +22,12 @@ For a smooth upgrade:
 1. Double click the zip file to unzip it
 1. Drag the Syncbot icon into your 'Applications' folder (or wherever your existing Syncbot application lives)
 1. Click the "Replace" button in the confirmation that pops up
-1. Double click Syncbot to launch it
+1. Right click on the Syncbot application icon to open a pop-up menu (a two-fingered tap on a touchh pad)
+1. Hold down the 'option' key on your keyboard and click the 'Open' menu item
+1. You'll see a warning that macOS cannot verify the developer of Syncbot
+1. Click the "Open" button in the warning window
 
+Once you've opened Syncbot for the first time after an update it should continue to open in all the normal ways
+(double click, from the Dock, etc...) until the next time you download an update.
 
 
