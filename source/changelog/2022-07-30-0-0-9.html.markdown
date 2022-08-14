@@ -7,3 +7,14 @@ tags:
 ---
 
 Initial Release
+
+New Features:
+
+* Basic Logic Pro X support
+* Team-based collaboration
+* Project Versioning
+
+Known Issues:
+
+* Files that have been removed from a session will "rise from the dead"
+if they're still on a collaborators computer when they download a new version.
