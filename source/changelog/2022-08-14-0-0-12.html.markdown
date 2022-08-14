@@ -11,6 +11,10 @@ New Features:
 * Basic Ableton Live support
 * Visual polish
 * Performance enhancements
+* Upload fingerprinting - Before uploading a file (an audio clip, for instance)
+we calculate a fingerprint for the file and if the version that's uploaded doesn't
+match then we fail the upload so it can be tried again. Currently you'd need to quit
+and restart Syncbot in order to retry the upload.
 
 Bugs fixed:
 
@@ -20,5 +24,5 @@ Bugs fixed:
 Known Issues:
 
 * The login form on the desktop app doesn't integrate with password managers.
-
+* Need better handling around upload failures and retries.
 
