@@ -1,0 +1,29 @@
+---
+
+title: 0.0.13
+date: 2022-08-18 03:19 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Empty files in a session directory don't break uploads anymore. This would crop
+  up particularly with Ableton Live sets when the session was saved while a track
+  was armed. Ableton seems to open an empty file to be ready to save the audio.
+* If we download a file in a project and the fingerprint doesn't match what we expect
+  we blank out the local version so that the download button will reappear, giving you
+  at least some indication that it had trouble. This could stand to be robustified.
+* The `Backup` directory in Ableton Live projects is now excluded from being uploaded.
+
+Known Issues:
+
+* The login form on the desktop app doesn't integrate with password managers.
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
