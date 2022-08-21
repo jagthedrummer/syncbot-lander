@@ -1,0 +1,33 @@
+---
+
+title: 0.0.14
+date: 2022-08-21 20:47 UTC
+tags: 
+
+---
+
+New Features:
+
+* Better activity indicators during uploads and downloads. Now we show a "sub progress bar"
+  for each file involved in the project.
+  ![](0.0.14/upload-indicator.png)
+* When you save a new version you'll be prompted to add a description of what you did.
+  ![](0.0.14/add-a-description.png)
+* You can see the latest description on a project, or for any version right from the list by
+  hovering over the user icon with the speech bubble.
+  ![](0.0.14/description-display.png)
+* Better version detail display.
+  ![](0.0.14/version-display.png)
+
+
+Bugs fixed:
+
+* The project version list should behave better when a new version is created and uploaded.
+
+Known Issues:
+
+* The login form on the desktop app doesn't integrate with password managers.
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
