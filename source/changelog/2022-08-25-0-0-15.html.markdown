@@ -1,0 +1,26 @@
+---
+
+title: 0.0.15
+date: 2022-08-25 15:52 UTC
+tags: 
+
+---
+
+New Features:
+
+* Sign in now happens via a browser based auth flow. When you click the "sign in" button in the
+  desktop app your browser will open, and if you're already signed in to the web site then you'll
+  immediately be returned to the desktop app, and you'll be signed in there as well. If you're not
+  already signed in to the web site, you can sign in (using a password manager, if you like!), and
+  then you'll be redirected back to the desktop app.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
