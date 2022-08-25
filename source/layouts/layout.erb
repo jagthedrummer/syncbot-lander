@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Syncbot" %></title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
@@ -30,9 +30,8 @@
     <%= javascript_include_tag "site" %>
 
     <meta property="og:image" content="<%= image_path 'hero-screenshot.png' %>"/>
-    <meta property="og:title" content="Syncbot"/>
-    <meta property="og:description" content="Collaborate with other musicians on Logic Pro X & Ableton Live projects. Easy sharing with collaborators and
-automatic backup of every change."/>
+    <meta property="og:title" content="<%= current_page.data.title || "Syncbot" %>"/>
+    <%#<meta property="og:description" content="Collaborate with other musicians on Logic Pro X & Ableton Live projects. Easy sharing with collaborators and automatic backup of every change."/>%>
     <meta property="og:image:width" content="2196"/>
     <meta property="og:image:height" content="1500"/>
   </head>
