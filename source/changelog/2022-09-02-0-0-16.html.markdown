@@ -1,0 +1,24 @@
+---
+
+title: 0.0.16
+date: 2022-09-02 16:00 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added some buttons for creating a new team and for inviting a new team member.
+  They just take you to the right place on the web site to do the thing.
+* Some visual polish.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
