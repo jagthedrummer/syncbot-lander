@@ -1,0 +1,24 @@
+---
+
+title: 0.0.17
+date: 2022-09-23 19:05 UTC
+tags: 
+
+---
+
+New Features:
+
+* Lots of visual polish and UI consistency.
+* Restructured some data loading patterns so that things should feel more responsive when clicking around.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
