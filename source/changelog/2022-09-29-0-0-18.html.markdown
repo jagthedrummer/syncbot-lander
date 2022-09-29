@@ -1,0 +1,25 @@
+---
+
+title: 0.0.18
+date: 2022-09-29 00:37 UTC
+tags: 
+
+---
+
+New Features:
+
+* Ability to archive and re-activate a project. Changes in archived projects will not be synced.
+* Ability to rename a project.
+* Some minor visual polish.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
