@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Changelog</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Font Awesome if you need it
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+  -->
+    <!--Replace with your tailwind.css once created-->
+    <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+
+    <meta property="og:image" content="/images/hero-screenshot.png"/>
+    <meta property="og:title" content="Changelog"/>
+    <meta property="og:image:width" content="949"/>
+    <meta property="og:image:height" content="720"/>
+  </head>
+
+  <body class="">
+
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-12 mx-auto">
+        <!--
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-4xl dark:text-white">Yo!</h1>
+        -->
+
+        <div class="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+          <div class="lg:mx-12">
+            <!--
+            -->
+            <a href="/">
+            <img src="/images/syncbot.jpg" class="h-24 w-24 rounded-full" alt="" />
+            </a>
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-4">Syncbot Docs</h1>
+
+            <div class="mt-4 space-y-4 lg:mt-8">
+              <a href="/how-it-works/" class="block text-gray-500 dark:text-gray-300 hover:underline">How It Works</a>
+              <a href="/installation/" class="block text-gray-500 dark:text-gray-300 hover:underline">Installation</a>
+              <a href="/updating/" class="block text-gray-500 dark:text-gray-300 hover:underline">Updating</a>
+              <a href="/faq/" class="block text-gray-500 dark:text-gray-300 hover:underline">FAQ</a>
+              <a href="/changelog/" class="block text-gray-500 dark:text-gray-300 hover:underline">Changelog</a>
+            </div>
+          </div>
+
+          <div class="flex-1 mt-8 lg:mx-12 lg:mt-0">
+            <!--
+            <div>
+              <button class="flex items-center focus:outline-none">
+                <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+                <h1 class="mx-4 text-xl text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+              </button>
+
+              <div class="flex mt-8 md:mx-10">
+                <span class="border border-blue-500"></span>
+
+                <p class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
+                </p>
+              </div>
+            </div>
+            -->
+
+            
+<div class="prose">
+  <h1>Changelog</h1>
+  <p>&nbsp;</p>
+</div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.18</h1>
+      <h2><time>Sep 29 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Ability to archive and re-activate a project. Changes in archived projects will not be synced.</li>
+  <li>Ability to rename a project.</li>
+  <li>Some minor visual polish.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.17</h1>
+      <h2><time>Sep 23 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Lots of visual polish and UI consistency.</li>
+  <li>Restructured some data loading patterns so that things should feel more responsive when clicking around.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.16</h1>
+      <h2><time>Sep  2 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Added some buttons for creating a new team and for inviting a new team member.
+They just take you to the right place on the web site to do the thing.</li>
+  <li>Some visual polish.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.15</h1>
+      <h2><time>Aug 25 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Sign in now happens via a browser based auth flow. When you click the "sign in" button in the
+desktop app your browser will open, and if you're already signed in to the web site then you'll
+immediately be returned to the desktop app, and you'll be signed in there as well. If you're not
+already signed in to the web site, you can sign in (using a password manager, if you like!), and
+then you'll be redirected back to the desktop app.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.14</h1>
+      <h2><time>Aug 21 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Better activity indicators during uploads and downloads. Now we show a "sub progress bar"
+for each file involved in the project.
+<img src="/images/0.0.14/upload-indicator.png" alt="" /></li>
+  <li>When you save a new version you'll be prompted to add a description of what you did.
+<img src="/images/0.0.14/add-a-description.png" alt="" /></li>
+  <li>You can see the latest description on a project, or for any version right from the list by
+hovering over the user icon with the speech bubble.
+<img src="/images/0.0.14/description-display.png" alt="" /></li>
+  <li>Better version detail display.
+<img src="/images/0.0.14/version-display.png" alt="" /></li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>The project version list should behave better when a new version is created and uploaded.</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>The login form on the desktop app doesn't integrate with password managers.</li>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.13</h1>
+      <h2><time>Aug 18 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>Empty files in a session directory don't break uploads anymore. This would crop
+up particularly with Ableton Live sets when the session was saved while a track
+was armed. Ableton seems to open an empty file to be ready to save the audio.</li>
+  <li>If we download a file in a project and the fingerprint doesn't match what we expect
+we blank out the local version so that the download button will reappear, giving you
+at least some indication that it had trouble. This could stand to be robustified.</li>
+  <li>The <code>Backup</code> directory in Ableton Live projects is now excluded from being uploaded.</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>The login form on the desktop app doesn't integrate with password managers.</li>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.12</h1>
+      <h2><time>Aug 14 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Basic Ableton Live support</li>
+  <li>Visual polish</li>
+  <li>Performance enhancements</li>
+  <li>Upload fingerprinting - Before uploading a file (an audio clip, for instance)
+we calculate a fingerprint for the file and if the version that's uploaded doesn't
+match then we fail the upload so it can be tried again. Currently you'd need to quit
+and restart Syncbot in order to retry the upload.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>Files that have been removed from a project will no longer "rise from the dead".</li>
+  <li>Better handling around prompting to update.</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>The login form on the desktop app doesn't integrate with password managers.</li>
+  <li>Need better handling around upload failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.9</h1>
+      <h2><time>Jul 30 2022</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>Initial Release</p>
+
+<p>New Features:</p>
+
+<ul>
+  <li>Basic Logic Pro X support</li>
+  <li>Team-based collaboration</li>
+  <li>Project Versioning</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Files that have been removed from a session will "rise from the dead"
+if they're still on a collaborators computer when they download a new version.</li>
+  <li>The link for downloadig an update isn't very responsive. It doesn't give you
+andy indicators that anything is happening. It might be better to open a browser
+window to a download page.</li>
+  <li>The login form on the desktop app doesn't integrate with password managers.</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

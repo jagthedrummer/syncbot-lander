@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FAQ</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Font Awesome if you need it
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+  -->
+    <!--Replace with your tailwind.css once created-->
+    <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+
+    <meta property="og:image" content="/images/hero-screenshot.png"/>
+    <meta property="og:title" content="FAQ"/>
+    <meta property="og:image:width" content="949"/>
+    <meta property="og:image:height" content="720"/>
+  </head>
+
+  <body class="">
+
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-12 mx-auto">
+        <!--
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-4xl dark:text-white">Yo!</h1>
+        -->
+
+        <div class="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+          <div class="lg:mx-12">
+            <!--
+            -->
+            <a href="/">
+            <img src="/images/syncbot.jpg" class="h-24 w-24 rounded-full" alt="" />
+            </a>
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-4">Syncbot Docs</h1>
+
+            <div class="mt-4 space-y-4 lg:mt-8">
+              <a href="/how-it-works/" class="block text-gray-500 dark:text-gray-300 hover:underline">How It Works</a>
+              <a href="/installation/" class="block text-gray-500 dark:text-gray-300 hover:underline">Installation</a>
+              <a href="/updating/" class="block text-gray-500 dark:text-gray-300 hover:underline">Updating</a>
+              <a href="/faq/" class="block text-gray-500 dark:text-gray-300 hover:underline">FAQ</a>
+              <a href="/changelog/" class="block text-gray-500 dark:text-gray-300 hover:underline">Changelog</a>
+            </div>
+          </div>
+
+          <div class="flex-1 mt-8 lg:mx-12 lg:mt-0">
+            <!--
+            <div>
+              <button class="flex items-center focus:outline-none">
+                <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+                <h1 class="mx-4 text-xl text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+              </button>
+
+              <div class="flex mt-8 md:mx-10">
+                <span class="border border-blue-500"></span>
+
+                <p class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
+                </p>
+              </div>
+            </div>
+            -->
+
+              <div class="prose prose-emerald dark:prose-invert">
+    <h1 id="faq">FAQ</h1>
+
+<h2 id="can-i-use-symlinks-instead-of-putting-projects-directly-in-syncbot">Can I use symlinks instead of putting projects directly in <code>~Syncbot</code>?</h2>
+
+<p>Well… kinda?</p>
+
+<p>If Syncbot is running when you create a symlink it should notice the new project
+and the project should be uploaded.</p>
+
+<p><strong>However</strong> the process that watches for changes in the
+<code>~/Syncbot</code> directory won't be able to "see" any changes in the project. That means
+that <strong>if you save a change to the project Syncbot won't automatically upload it for you.</strong>
+If you quit and then restart Syncbot it should see the changes on the initial scan
+and then upload the new version at that time. You'll need to restart Syncbot each time
+that you've made a change you want to upload.</p>
+
+<p><strong>For best results I recommend putting projects directly in the <code>~/Syncbot</code> folder,
+or in one of its sub-folders.</strong></p>
+
+<p>In the future there <em>might</em> be a configuration option to let you tell Syncbot to
+watch other folders.</p>
+
+<h2 id="will-syncbot-mess-up-my-sessions">Will Syncbot mess up my sessions?</h2>
+
+<p><em>I certainly hope not!</em></p>
+
+<p>But, with that being said, you should be aware that that <strong>Syncbot is alpha level software</strong>. For
+now I'd recommend being cautious, and if you have sessions that you really care about, please
+keep a copy of them outside of Syncbot.</p>
+
+<p>In most cases Syncbot won't do things that would mess up a session.</p>
+
+<p>But some actions are riskier than others. In specific, any time you download a project (or an
+older version), there is a chance for something to go sideways since we're directly messing
+with files inside the session.</p>
+
+<p>Be sure to close Logic or Ableton before downloading new versions of a project.</p>
+
+<p>Non-risky activities:</p>
+
+<ul>
+  <li>If you're using Syncbot on your own, to back up your sessions, and you're not
+going back to older versions then there is very little risk that Syncbot could
+mess up your sessions.</li>
+</ul>
+
+
+  </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
